@@ -1,0 +1,65 @@
+.container {
+    max-width: 1080px;
+}
+
+.wrapper {
+	width: 80%;
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+.c123 {
+	padding: 1rem;
+}
+
+p {
+	width: 200px;
+	text-align: center;
+}
+
+.center {
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+/*about*/
+.avatar {
+    border-radius: 50%;
+    width: 100%;
+}
+.avatar-post {
+    margin-top: 1rem; /* отступ сверху */
+    font-size: 1.4rem; /* увеличить размер шрифта */
+    text-align: center; /* выровнять текст по центру */
+}
+.avatar-text {
+    color: rgb(140, 140, 140); /* цвет текста - серый */
+    font-size: 1.1rem; /* увеличить размер шрифта */
+    text-align: center; /* выровнять текст по центру */
+}
+.shadow:hover{
+    box-shadow: 0 0.5rem 2rem rgba(0,0,0,.15)!important;
+    cursor:pointer;
+}
+
+/*products*/
+.product-image { /* Оформление фото товара */
+    width: 100%; /* ширина 100% */
+    border-radius: 0.5rem; /* скругление блока (углов) на 0.5rem */
+    border: 1px solid rgb(210, 210, 210); /* рамка вокруг блока с шириной 1px, сплошная, серая */
+}
+.product-name { /* Оформление наименования товара */
+    font-size: 1.4rem; /* увеличить размер шрифта */
+}
+.product-description { /* Оформление описания товара */
+    font-size: 1.1rem; /* увеличить размер шрифта */
+    color: rgb(60, 60, 60); /* цвет текста - темно-серый */
+}
+.product-price { /* Оформление цены товара */
+    padding: 0.5rem; /* отступ внутри блока 0.5rem со всех сторон */
+    border-radius: 0.5rem; /* скругление блока (углов) на 0.5rem */
+    border: 1px solid rgb(210, 210, 210); /* рамка вокруг блока с шириной 1px, сплошная, серая */
+    margin: 0 1rem; /* отступ по горизонтали 1rem */
+}
+    
