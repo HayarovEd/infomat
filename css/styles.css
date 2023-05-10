@@ -1,3 +1,7 @@
+body {
+	background: url(../pic/sfr_back.png);
+}
+
 .container {
 	position: absolute;
     max-width: 960px;
@@ -6,14 +10,14 @@
     align-items: center;
 }
 
-.wrapper {
+/*.wrapper {
 	width: 80%;
 	max-width: 1080px;
 	margin: 0 auto;
-}
+}*/
 
-.c123 {
-	padding: 1.5rem;
+.pad {
+	padding: 1rem;
 }
 
 p {
