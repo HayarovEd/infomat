@@ -20,6 +20,10 @@ body {
 	padding: 1rem;
 }
 
+.pad2 {
+	padding: 2rem;
+}
+
 p {
 	text-align: center;
 }
@@ -27,6 +31,18 @@ p {
 .center {
 	text-align: center;
 	margin: 0 auto;
+}
+
+.play {
+	text-align: center;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+
+.text {
+	text-align: center;
+	margin: 0 auto;
+	width: 220px;
 }
 
 /* bootstrap */
